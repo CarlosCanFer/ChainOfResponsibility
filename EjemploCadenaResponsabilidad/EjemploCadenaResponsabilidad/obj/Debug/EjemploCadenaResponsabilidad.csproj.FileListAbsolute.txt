@@ -1,0 +1,7 @@
+C:\Users\carlos.can\source\repos\EjemploCadenaResponsabilidad\EjemploCadenaResponsabilidad\bin\Debug\EjemploCadenaResponsabilidad.exe.config
+C:\Users\carlos.can\source\repos\EjemploCadenaResponsabilidad\EjemploCadenaResponsabilidad\bin\Debug\EjemploCadenaResponsabilidad.exe
+C:\Users\carlos.can\source\repos\EjemploCadenaResponsabilidad\EjemploCadenaResponsabilidad\bin\Debug\EjemploCadenaResponsabilidad.pdb
+C:\Users\carlos.can\source\repos\EjemploCadenaResponsabilidad\EjemploCadenaResponsabilidad\obj\Debug\EjemploCadenaResponsabilidad.csprojAssemblyReference.cache
+C:\Users\carlos.can\source\repos\EjemploCadenaResponsabilidad\EjemploCadenaResponsabilidad\obj\Debug\EjemploCadenaResponsabilidad.csproj.CoreCompileInputs.cache
+C:\Users\carlos.can\source\repos\EjemploCadenaResponsabilidad\EjemploCadenaResponsabilidad\obj\Debug\EjemploCadenaResponsabilidad.exe
+C:\Users\carlos.can\source\repos\EjemploCadenaResponsabilidad\EjemploCadenaResponsabilidad\obj\Debug\EjemploCadenaResponsabilidad.pdb
