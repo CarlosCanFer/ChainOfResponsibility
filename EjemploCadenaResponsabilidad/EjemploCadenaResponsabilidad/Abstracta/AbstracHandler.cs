@@ -11,11 +11,11 @@ namespace EjemploCadenaResponsabilidad.Abstracta
 
             return autorizaSolicitud;
         }
-        public virtual void Autorizar(object _isolicitud)
+        public virtual void Autorizar(object _isolicitud, string _cConcepto)
         {
             if (this._SiguenteAutorizacion != null)
             {
-                this._SiguenteAutorizacion.Autorizar(_isolicitud);
+                this._SiguenteAutorizacion.Autorizar(_isolicitud,_cConcepto);
             }            
         }       
     }

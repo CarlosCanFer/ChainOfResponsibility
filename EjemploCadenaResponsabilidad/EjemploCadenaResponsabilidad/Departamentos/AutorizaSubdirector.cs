@@ -5,18 +5,18 @@ namespace EjemploCadenaResponsabilidad.Departamentos
 {
     public class AutorizaSubdirector : AbstracHandler
     {
-        public override void Autorizar(object _isolicitud)
+        public override void Autorizar(object _isolicitud, string _cConcepto)
         {
             try {
                 if (Convert.ToInt32(_isolicitud) > 10000 && Convert.ToInt32(_isolicitud) <= 15000)
                 {
-                    Console.WriteLine(" Se autoriza por el subdirector \n");
+                    Console.WriteLine(" Compra de {0} Se autoriza por el subdirector \n", _cConcepto);
                 }
                 else
                 {
                     if (base._SiguenteAutorizacion != null)
                     {
-                        base._SiguenteAutorizacion.Autorizar(_isolicitud);
+                        base._SiguenteAutorizacion.Autorizar(_isolicitud, _cConcepto);
                     }
                 }
             } catch {

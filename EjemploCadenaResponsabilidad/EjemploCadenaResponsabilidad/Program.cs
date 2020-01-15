@@ -12,7 +12,7 @@ namespace EjemploCadenaResponsabilidad
             AutorizaSubdirector objsubdirector = new AutorizaSubdirector();
             AutorizaDirector objdirector = new AutorizaDirector();
 
-            string _cmonto;
+            string _cmonto, _cconcepto;
 
             objcoordinador.SetNext(objgerente).SetNext(objsubdirector).SetNext(objdirector);
 
@@ -20,10 +20,12 @@ namespace EjemploCadenaResponsabilidad
             do
             {               
                 Console.WriteLine("-------------------------------");
+                Console.WriteLine(" Inserte el concepto de la compra..");
+                _cconcepto = Console.ReadLine();
                 Console.WriteLine(" Inserte monto de solicitud");
                 _cmonto = Console.ReadLine();
 
-                objcoordinador.Autorizar(_cmonto);
+                objcoordinador.Autorizar(_cmonto,_cconcepto);
             } while (_cmonto != "s");
 
 
